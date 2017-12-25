@@ -1,5 +1,3 @@
-# xe-core core.js
-
 # prototype.* 兼容函数 ES5 ES6 ES7 ES8
 
 ## 通过NPM安装最新版本
