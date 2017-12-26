@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xlz26296/xe-core.git"
+    "url": "git+https://github.com/xuliangzhan/xe-core.git"
   },
   "keywords": [
     "core.js",
@@ -22,7 +22,7 @@
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/xlz26296/xe-core/issues"
+    "url": "https://github.com/xuliangzhan/xe-core/issues"
   },
-  "homepage": "https://github.com/xlz26296/xe-core#readme"
+  "homepage": "https://github.com/xuliangzhan/xe-core#readme"
 }
