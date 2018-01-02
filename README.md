@@ -10,5 +10,6 @@ npm install xe-core --save
 ``` shell
 import 'xe-core'
 ```
+
 ## License
 Copyright (c) 2017-present, Xu Liangzhan
