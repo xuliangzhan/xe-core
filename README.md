@@ -11,5 +11,10 @@ npm install xe-core --save
 import 'xe-core'
 ```
 
+### 直接使用<script>引入
+``` shell
+<script type="text/javascript" src="dist/core.js"></script>
+```
+
 ## License
 Copyright (c) 2017-present, Xu Liangzhan
