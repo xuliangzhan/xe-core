@@ -71,12 +71,6 @@
   }
 
   global.XExtends = {Symbol: XESymbol}
-
-  if (!global.Symbol.isSymbol) {
-    global.Symbol.isSymbol = function (value) {
-      return typeof value === 'symbol'
-    }
-  }
 })();
 
 (function () {
@@ -86,6 +80,7 @@
 
   var stringProtos = String.prototype
   var arrayProtos = Array.prototype
+  var fnProtos = Function.prototype
 
   var iteratorIndex = Symbol('Iterator Index')
   var iteratorList = Symbol('Iterator Value')
@@ -205,7 +200,7 @@
       if (v1 === v2) {
         return v1 !== 0 || 1 / v1 === 1 / v2
       }
-      return v1 !== v1 && v2 !== v2
+      return false
     },
 
     /*
@@ -284,8 +279,8 @@
     }
 
   }, function (fn, name) {
-    if (!Function.prototype[name]) {
-      Function.prototype[name] = fn
+    if (!fnProtos[name]) {
+      fnProtos[name] = fn
     }
   })
 

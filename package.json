@@ -1,6 +1,6 @@
 {
   "name": "xe-core",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "prototype.* 兼容函数 ES5 ES6 ES7 ES8",
   "main": "index.js",
   "scripts": {
