@@ -1,5 +1,5 @@
 /*
- * XExtends Core v1.0.0
+ * XExtends Core v1.0.6
  *
  * Free open source
  * Author: xu_liangzhan@163.com
