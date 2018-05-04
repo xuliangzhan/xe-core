@@ -1,1 +1,1 @@
-# prototype.* prototype扩展
+# prototype.*
