@@ -1,5 +1,5 @@
 # prototype.* 兼容函数 ES5 ES6 ES7 ES8
-``` shell
+```JavaScript
 Symbol、Promise、Map、WeakMap、Set、WeakSet
 Object.*
 Date.*
