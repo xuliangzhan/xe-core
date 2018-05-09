@@ -1,7 +1,7 @@
 {
   "name": "xe-core",
-  "version": "1.0.6",
-  "description": "prototype.* 兼容函数 ES5 ES6 ES7 ES8",
+  "version": "1.0.7",
+  "description": "Test prototype.*",
   "main": "index.js",
   "scripts": {
     "test": "make test"
@@ -11,11 +11,7 @@
     "url": "git+https://github.com/xuliangzhan/xe-core.git"
   },
   "keywords": [
-    "core.js",
-    "core",
-    "xe-core",
-    "es6-core",
-    "xe"
+    "xe-utils"
   ],
   "author": {
     "name": "Xu Liangzhan",

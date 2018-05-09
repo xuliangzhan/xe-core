@@ -1,9 +1,3 @@
-/*
- * XExtends Core v1.0.6
- *
- * Free open source
- * Author: xu_liangzhan@163.com
- */
 (function () {
   'use strict'
 
@@ -672,7 +666,7 @@
     },
 
     /*
-      * ES6 接收一个函数作为累加器（accumulator），数组中的每个值（从左到右）开始合并，最终为一个值。
+      * ES6 接收一个函数作为累加器，数组中的每个值（从左到右）开始合并，最终为一个值。
       *
       * @param Function callback(previous, item, index, array) 回调
       * @param Function initialValue 初始值

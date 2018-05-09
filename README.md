@@ -1,1 +1,1 @@
-# prototype.*
+# Test prototype.*
